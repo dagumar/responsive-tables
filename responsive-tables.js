@@ -23,6 +23,7 @@ $(document).ready(function() {
 	
 	function splitTable(original)
 	{
+		 unsplitTable(original);
 		original.wrap("<div class='table-wrapper' />");
 		
 		var copy = original.clone();
